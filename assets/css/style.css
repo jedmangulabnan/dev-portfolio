@@ -417,7 +417,7 @@ li > a:hover {
 
 
 /*media q*/
-@media (max-width: 575.98px) {
+/*@media (max-width: 575.98px) {
 	#gradient{
 		height: 705vh;
 		width: 102vh;
@@ -593,7 +593,8 @@ li > a:hover {
 		padding: 10px 60px;
 	}
 }
-
+*/
+/*
 @media (min-width: 576px) and (max-width: 767.98px){
 
 
@@ -615,3 +616,4 @@ li > a:hover {
 		margin-top: 50px;
 	}
 }
+*/
