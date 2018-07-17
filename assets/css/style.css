@@ -25,7 +25,12 @@
 	border: 5px solid ;
 }*/
 
-.nav{
+/*.cell{
+	border: 1px solid black;
+}*/
+
+
+.navi{
 	height: 10vh;
 	width: 100vw;
 	background-color: rgba(255, 255, 255, 0.1);
@@ -42,7 +47,7 @@
 	width: 100vw;
 }
 
-.navbarnav{
+.nav-navbar{
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.9);;
 }
@@ -404,12 +409,12 @@ li > a:hover {
 
 
 .head-footer{
-	margin-top: 20px;
+	margin-top: 10px;
 	text-transform: uppercase;
 }
 
 .par-footer{
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 
@@ -617,3 +622,177 @@ li > a:hover {
 	}
 }
 */
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	#gradient
+	{
+	height: 508vh;
+	width: 100vw;
+  	padding: 0px;
+ 	margin: 0px;
+	}
+
+	.about{
+		padding-top: 200px;
+	}
+	
+	.about-content{
+		padding-top: 0;
+		padding-left: 40px;
+		padding-right: 43px;
+		height: 65vh;
+
+	}
+
+	.header-about{
+		padding: 0px;
+		margin: 10px;
+	}
+
+	.par-about{
+		padding: 0px;
+		margin: 10px;
+	}
+
+
+	/*skills*/
+	.skills{
+		padding-top: 200px;
+	}
+
+	.skills-content{
+		padding-top: 0;
+		padding-left: 40px;
+		padding-right: 43px;
+		height: 100vh;
+
+	}
+
+
+	.header-skills{
+		padding: 0px;
+		margin: 10px;
+	}
+
+	.par-skills{
+		padding: 0px;
+		margin: 10px;
+	}
+
+
+		/*educ*/
+	.educ{
+		padding-top: 350px;
+	}
+
+	.educ-content{
+		padding-top: 0;
+		padding-left: 40px;
+		padding-right: 43px;
+		height: 90vh;
+
+	}
+
+
+	.header-educ{
+		padding: 0px;
+		margin: 10px;
+	}
+
+	.par-educ{
+		padding: 0px;
+		margin: 10px;
+	}
+
+	/*contact*/
+	.contact{
+		padding-top: 400px;
+	}
+
+	.contact-content{
+		padding-top: 0;
+		padding-left: 40px;
+		padding-right: 43px;
+		height: 70vh;
+
+	}
+
+
+	.header-contact{
+		padding: 0px;
+		margin: 10px;
+	}
+
+	.par-contact{
+		padding: 0px;
+		margin: 10px;
+	}
+
+	/*footer*/
+
+	.footer{
+		padding-top: 400px;
+	}
+
+	.footer-content{
+		padding-top: 0;
+		padding-left: 40px;
+		padding-right: 43px;
+		height: 10vh;
+	}
+
+	.head-footer{
+		padding: 5px;
+		margin: 0px;
+	}
+
+	.par-footer{
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+
+
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	#gradient
+	{
+	height: 100%;
+	}
+
+	.header-educ{
+		overflow: hidden;
+	}
+
+	.head-footer > h3{
+		overflow: hidden;
+	}
+
+	footer{
+		height: 8vh;
+	}
+
+	.footer-content{
+		height: 8vh;
+		margin-bottom: : 0px;
+	}
+	
+ }
+

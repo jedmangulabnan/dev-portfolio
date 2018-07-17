@@ -12,7 +12,7 @@ var step = 0;
 var colorIndices = [0,1,2,3];
 
 
-var gradientSpeed = 0.0015;
+var gradientSpeed = 0.0020;
 
 function updateGradient()
 {
