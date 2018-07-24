@@ -13,11 +13,40 @@
 
 #gradient
 {
-	height: 446vh;
+	height: 550vh;
 	width: 100vw;
   	padding: 0px;
  	margin: 0px;
 }
+
+/*PROJECTS*/
+.box{
+	border: 1px solid grey;
+	height: 300px;
+	width: 500px;
+	z-index: 1;
+}
+
+ .box > a > img{
+	height: 100%;
+	width: 100%;
+	opacity: 0.9;
+
+}
+
+.project-title{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.box > a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+
 
 /*.container-fluid{
 	height: 100vh;
@@ -30,11 +59,14 @@
 }*/
 
 
+
+
 .navi{
 	height: 10vh;
 	width: 100vw;
 	background-color: rgba(255, 255, 255, 0.1);
 	position: fixed;
+	z-index: 10;
 }
 
 .clear{
@@ -630,7 +662,7 @@ li > a:hover {
 
 	#gradient
 	{
-	height: 508vh;
+	height: 610vh;
 	width: 100vw;
   	padding: 0px;
  	margin: 0px;
@@ -755,7 +787,19 @@ li > a:hover {
 		margin: 0px;
 	}
 
+	.box{
+	border: 1px solid grey;
+	height: 300px;
+	width: 90vw;
+	z-index: 1;
+}
 
+ .box > a > img{
+	height: 100%;
+	width: 90%;
+	opacity: 0.9;
+
+}
 
 
 
